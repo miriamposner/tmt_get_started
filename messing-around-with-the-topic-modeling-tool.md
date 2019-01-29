@@ -120,6 +120,8 @@ If you've made it to this step, please raise your blue flag to signal that you'v
 
 I'd also like you to give some thought to the division of the documents. Our files were divided by speech: one document per speech. How would our results look different if we aggregated the speeches, allotting (for example) one document per decade?
 
+While you're waiting, a word or two about where you might go from here. The TMT, as you've seen, does a good job creating topic models. You can also use it to alter some options, such as the number of topics the TMT yields. However, as you proceed, you may find that you want to configure some options more finely: the output, for example, or the way the topics are classified. In that case, you'll want to turn to [MALLET](http://mallet.cs.umass.edu/index.php), which implements topic modeling algorithms from the [command line](https://programminghistorian.org/en/lessons/intro-to-bash). MALLET allows you more control over an array of options. You can find an excellent introduction to MALLET [here](https://programminghistorian.org/en/lessons/topic-modeling-and-mallet).
+
 ![][12]
 
 [12]: images/messing-around-with-the-topic-modeling-tool/try-again.png
