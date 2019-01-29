@@ -1,6 +1,6 @@
 # Visualize your topic model
 
-In [the first part of this tutorial] (https://github.com/miriamposner/tmt_get_started/blob/master/messing-around-with-the-topic-modeling-tool.md), we learned how to run the Topic Modeling Tool, and we began to interpret the results. In this second part of the tutorial, we'll learn how to visualize results so they're a little easier to understand. While we used the HTML files in the first part, we'll turn this time to our CSVs.
+In [the first part of this tutorial](https://github.com/miriamposner/tmt_get_started/blob/master/messing-around-with-the-topic-modeling-tool.md), we learned how to run the Topic Modeling Tool, and we began to interpret the results. In this second part of the tutorial, we'll learn how to visualize results so they're a little easier to understand. While we used the HTML files in the first part, we'll turn this time to our CSVs.
 
 ## Open your TMT results folder
 
