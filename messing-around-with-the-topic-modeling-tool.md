@@ -2,7 +2,7 @@
 
 Topic modeling, as we've discussed, is a method for finding "topics" (i.e., clusters of co-occurring words) in documents. It's easier to understand its possibilities and limitations when you try it for yourself.
 
-Luckily, a fairly easy-to-use tool makes this possible. The [Topic Modeling Tool](https://github.com/senderle/topic-modeling-tool) is a piece of software that implements the [MALLET (MAchine Learning for LAnguage Toolkit) package](http://mallet.cs.umass.edu/topics.php) to identify topics in documents of your choice. As we'll see, it's pretty easy to run the TMT. Analyzing the results is a bit trickier.
+Luckily, a fairly easy-to-use tool makes this possible. The [Topic Modeling Tool](https://github.com/senderle/topic-modeling-tool) is a piece of software that implements the [MALLET (MAchine Learning for LanguagE Toolkit) package](http://mallet.cs.umass.edu/topics.php) to identify topics in documents of your choice. As we'll see, it's pretty easy to run the TMT. Analyzing the results is a bit trickier.
 
 This tutorial will proceed in two parts. In this first part, we'll run the TMT and explore its output. In the second part, we will visualize the results the TMT has generated.
 
