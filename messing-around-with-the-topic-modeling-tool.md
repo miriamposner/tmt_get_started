@@ -52,7 +52,7 @@ You've selected your input folder and your output folder. Generally, the next st
 
 ## Run the TMT
 
-Press the **Learn Topics **button and let the TMT run. See, I told you this was surprisingly easy.
+Press the **Learn Topics** button and let the TMT run. See, I told you this was surprisingly easy.
 
 You'll know the TMT is finished when you see a message in the console that says **Training successful.**
 
@@ -62,7 +62,7 @@ You'll know the TMT is finished when you see a message in the console that says 
 
 ## Open the TMT's output
 
-Find the **tmt_output** folder you created in Step 1. You'll find that it now contains two sub-folders, one called **output_csv** and the other called **output_html**. 
+Find the **tmt_output** folder you created in Step 1. You'll find that it now contains two sub-folders, one called **output_csv** and the other called **output_html**.
 
 As the folder names suggest, TMT has generated results in two formats: our trusty CSV, and HTML (which you can read in your web browser). We'll begin with the **output_html** folder.
 
@@ -74,7 +74,7 @@ As the folder names suggest, TMT has generated results in two formats: our trust
 
 Double-click on **all_topics.html**. It should open in your web browser. Take a moment to examine the results. Can you tell what's going on here?
 
-Each numbered cluster of words is a **topic**: words that tend to co-occur. They are listed in no particular order, nor do the words within the topic occur in any particular order. Moreover, each topic contains 20 words on this list
+Each numbered cluster of words is a **topic**: words that tend to co-occur. They are listed in no particular order, nor do the words within the topic occur in any particular order. Moreover, each topic contains 20 words on this list: a fairly arbitrary number.
 
 ![][8]
 
@@ -84,7 +84,7 @@ Each numbered cluster of words is a **topic**: words that tend to co-occur. They
 
 If you click on a topic, you'll find that you can view the topic in more detail. The list of "top-ranked docs in this topic" displays the name of each document, with a number beside it corresponding to the number of words in the document that "belong" to the topic you're examining. As you can see, they're listed in order from most to least relevant.
 
-Thus, for the topic displayed in the screenshot below, Hoover's inauguration speech contains the most corresponding words, with 639/
+Thus, for the topic displayed in the screenshot below, Hoover's inauguration speech contains the most corresponding words, with 639 classified as relevant.
 
 ![][9]
 
@@ -92,7 +92,7 @@ Thus, for the topic displayed in the screenshot below, Hoover's inauguration spe
 
 ## Click through to the documents
 
-If you click on the name of a document, you'll find that you can see a more detailed breakdown of which topics occur most heavily within it. 
+If you click on the name of a document, you'll find that you can see a more detailed breakdown of which topics occur with the most prevalence within it.
 
 In Hoover's inauguration speech, as you can see in the image below, 39% of the words corresponded to the "government-business-opportunity-progress" topic. However, the TMT classified no words in Hoover's speech relevant to the "war-internal-conflict-gratitude-humble" topic.
 
@@ -107,6 +107,8 @@ If you click again on the topics, you'll be returned to the detailed page for th
 Click back to your **List of Topics** page and take another look at your topics. Working with your partner, give each topic a name that you believe indicates its contents. For example, I might call the first topic **Domestic Progress**. (But may not! It's up to you.)
 
 You may find you need to return to the original speeches to get a better sense of context. When you're done, you should have a list of 10 topics.
+
+(An aside: Many people label topics "by hand," but it is possible to automatically label topics. Multiple approaches exist for automatic labeling; you can read about one such approach [here](http://www.aclweb.org/anthology/P11-1154).)
 
 ![][11]
 
