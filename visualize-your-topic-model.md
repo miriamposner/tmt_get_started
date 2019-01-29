@@ -1,6 +1,6 @@
 # Visualize your topic model
 
-In the first part of this tutorial, we learned how to run the Topic Modeling Tool, and we began to interpret the results. In this second part of the tutorial, we'll learn how to visualize results so they're a little easier to understand. While we used the HTML files in the first part, we'll turn this time to our CSVs.
+In [the first part of this tutorial] (https://github.com/miriamposner/tmt_get_started/blob/master/messing-around-with-the-topic-modeling-tool.md), we learned how to run the Topic Modeling Tool, and we began to interpret the results. In this second part of the tutorial, we'll learn how to visualize results so they're a little easier to understand. While we used the HTML files in the first part, we'll turn this time to our CSVs.
 
 ## Open your TMT results folder
 
@@ -20,7 +20,7 @@ We'll be working with Tableau, just as we did last week. Double-click the Tablea
 
 ## Load the topics-metadata file into Tableau
 
-You should remember how to do this from last week: Click on **Text file** under the **Connect **heading and find the **topics-metadata.csv** file that is within your **output_csv** folder.
+You should remember how to do this from last week: Click on **Text file** under the **Connect** heading and find the **topics-metadata.csv** file that is within your **output_csv** folder.
 
 Click on **Sheet 1** to go to the visualization canvas.
 
@@ -46,9 +46,9 @@ To get there, do the following:
 
 You're almost there! But if you examine your bar chart closely, you'll notice that half of each bar is composed of the name of the corresponding document. We don't want that in our bars, so let's filter those document names out.
 
-Find the **Filters** window, above the **Marks** pane. If you hover over the **Measure Names** within the Filter pane, you'll see that you can click the down arrow to reveal a number of options for working with that dimension. From this menu, select **Edit filter..**. 
+Find the **Filters** window, above the **Marks** pane. If you hover over the **Measure Names** within the Filter pane, you'll see that you can click the down arrow to reveal a number of options for working with that dimension. From this menu, select **Edit filter..**.
 
-In the ensuing dialogue box, you'll find a list of measure names, each with a checkbox beside it. Scroll until you find **Number of Records**, and then uncheck the box and press **OK**. 
+In the ensuing dialogue box, you'll find a list of measure names, each with a checkbox beside it. Scroll until you find **Number of Records**, and then uncheck the box and press **OK**.
 
 Your bars should now be free of those document names.
 
