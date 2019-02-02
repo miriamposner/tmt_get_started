@@ -74,7 +74,7 @@ As the folder names suggest, TMT has generated results in two formats: our trust
 
 Double-click on **all_topics.html**. It should open in your web browser. Take a moment to examine the results. Can you tell what's going on here?
 
-Each numbered cluster of words is a **topic**: words that tend to co-occur. They are listed in no particular order, nor do the words within the topic occur in any particular order. Moreover, each topic contains 20 words on this list: a fairly arbitrary number.
+Each numbered cluster of words is a **topic**: words that tend to co-occur. The topics are listed in no particular order. However, within each topic, the words are listed in descending order of the frequency with which they are associated with the topic. By default, each topic contains 20 words on this list: a fairly arbitrary number.
 
 ![][8]
 
